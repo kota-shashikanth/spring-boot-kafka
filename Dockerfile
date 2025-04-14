@@ -6,7 +6,7 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Run stage
-FROM amazoncorretto:17-alpine
+FROM amazoncorretto:17-alpine AS spring-boot-app
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 
