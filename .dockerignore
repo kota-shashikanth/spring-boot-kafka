@@ -1,0 +1,46 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Maven
+target/
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Documentation
+README.md
+HELP.md
+LICENSE
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Test files
+src/test/
+
+# Build files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar 
